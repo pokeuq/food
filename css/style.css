@@ -166,16 +166,22 @@ a{
 .p_sp {
     font-size: 12px;
     line-height: 20px;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-transform: uppercase;
     color: #A8A8A8;
     margin-left: 58px;
+}
+.p_sp:hover{
+    text-shadow: -1px -1px 1px #A8A8A8;
 }
 .h2_sp{
     font-size: 38px;
     line-height: 48px;
     color: #000000;
     margin: 25px 0px 22px 58px;
+}
+.h2_sp:hover{
+    text-shadow: -1px -1px 1px #000000;
 }
 .span_sp{
     width: 300px;
@@ -185,6 +191,7 @@ a{
     color: #6B6B6B;
     margin-left: 58px;
 }
+
 .w_2_block{
     display: flex;
     margin: 160px 0;
@@ -239,25 +246,28 @@ a{
     margin: 10px 196px;
 }
 .activity:hover{
-    border: 2px solid rgba(253, 11, 125, 0.6);
     border-radius: 6px;
-    box-shadow: 3px 3px 10px rgba(253, 11, 125, 0.4);
+    box-shadow: 0px 0px 10px 3px rgba(253, 11, 125, 0.4);
 }
 .custom:hover{
-    border: 2px solid rgba(253, 11, 125, 0.6);
     border-radius: 6px;
-    box-shadow: 3px 3px 10px rgba(253, 11, 125, 0.4);
+    box-shadow: 0px 0px 10px 3px rgba(253, 11, 125, 0.4);
 }
 .mobile:hover{
-    border: 2px solid rgba(253, 11, 125, 0.6);
     border-radius: 6px;
-    box-shadow: 3px 3px 10px rgba(253, 11, 125, 0.4);
+    box-shadow: 0px 0px 10px 3px rgba(253, 11, 125, 0.4);
 }
 .w_5_block{
     display: flex;
 }
 .block_5{
     width: 324px;
+    margin-left: 8px;
+    padding-bottom: 5px;
+}
+.block_5:hover{
+    box-shadow: 0px 0px 10px #facbcb;
+    border-radius: 7px;
 }
 
 .numbers{
@@ -295,7 +305,7 @@ a{
 }
 .w_8_block{
     width: 1296px;
-height: 480px;
+    height: 480px;
 }
 .content_8{
     width: 720px;
@@ -309,9 +319,9 @@ height: 480px;
 }
 .content_8 p{
     font-size: 24px;
-line-height: 40px;
-text-align: center;
-color: #6B6B6B;
+    line-height: 40px;
+    text-align: center;
+    color: #6B6B6B;
 }
 .split{
     display: flex;
